@@ -54,9 +54,6 @@ Create a .env file in both frontend and backend directories:
 
 📁 backend/.env
 
-ini
-Copy
-Edit
 PORT=5001
 MONGO_URI=your_mongodb_connection
 JWT_SECRET_KEY=your_jwt_secret
@@ -64,9 +61,6 @@ STEAMIFY_API_KEY=your_stream_api_key
 STEAMIFY_API_SECRET=your_stream_api_secret
 📁 frontend/.env
 
-ini
-Copy
-Edit
 VITE_STREAM_API_KEY=your_stream_api_key
 VITE_BACKEND_URL=http://localhost:5001/api
 Install dependencies:
@@ -74,15 +68,11 @@ Install dependencies:
 Frontend:
 
 bash
-Copy
-Edit
 cd frontend
 npm install
 Backend:
 
 bash
-Copy
-Edit
 cd ../backend
 npm install
 Start the development servers:
@@ -90,14 +80,10 @@ Start the development servers:
 Backend:
 
 bash
-Copy
-Edit
 npm run dev
 Frontend (in a separate terminal):
 
 bash
-Copy
-Edit
 npm run dev
 Access the app:
 
